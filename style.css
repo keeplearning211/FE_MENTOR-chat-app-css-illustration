@@ -62,7 +62,5 @@ body {
   background-color: var(--cream);
 
   display: grid;
-  place-content: center;
-  height: 100vh;
-  margin: 1rem;
+  gap: 2rem;
 }

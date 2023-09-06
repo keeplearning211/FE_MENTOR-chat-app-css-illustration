@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <meta name="description" content="A chat app CSS illustration using HTML and CSS">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Chat app css illustration</title>
 
   <!-- Google fonts -->
@@ -18,13 +20,77 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <main>
-    <h1>Simple booking</h1>
+    <article>
+      <section class="illustration">
+        <div class="art_side-background"></div>
+        <div class="art_phone">
+          <span class="art_phone_header"></span>
+          <div class="app_header">
+            <span class="app_header_back-icon"><</span>
+            <span class="app_header_partner-avatar"><img src="./images/avatar.jpg" alt="partner avatar"></span>
+            <span class="app_header_partner-name">Samuel Green</span>
+            <span class="app_header_partner-status">Available to Walk</span>
+            <span class="app_header_more-icon">...</span>
+          </div>
+          <div class="app_message-list">
+            <div class="partner-message">
+              <p class="message">That sounds great. I’d be happy with that.</p>
+              <p class="message">Could you send over some pictures of your dog, please?</p>
+            </div>
+              
+            <div class="user-message">
+              <div class="user-message-imgs">
+                <img src="./images/dog-image-1.jpg" alt="dog image 1">
+                <img src="./images/dog-image-2.jpg" alt="dog image 2">
+                <img src="./images/dog-image-3.jpg" alt="dog image 3">
+              </div>
+              <p class="message">Here are a few pictures. She’s a happy girl!</p> 
+              <p class="message"> Can you make it?</p> 
+            </div>
+            <div class="partner-message">
+              <p class="message">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+              <div class="deal_option-list">
+                <div class="deal_option-item">
+                  <span class="option-icon">*</span>
+                  <span class="option-label">30 minute walk</span>
+                  <span class="option-price">$29</span>
+                </div>
+                <div class="deal_option-item">
+                  <span class="option-icon">*</span>
+                  <span class="option-label">1 hour walk</span>
+                  <span class="option-price">$49</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="compose">
+            Type a message…
+            <span class="app_compose_send-icon"></span>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.
+        </p>
+      </section>
+    </article>
   </main>
 
   <!-- Samuel Green
@@ -53,10 +119,11 @@
   Stay in touch with our dog walkers through the chat interface. This makes it easy to 
   discuss arrangements and make bookings. Once the walk has been completed you can rate 
   your walker and book again all through the chat. -->
-  
+
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
