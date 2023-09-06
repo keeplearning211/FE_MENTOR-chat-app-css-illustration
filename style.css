@@ -1,0 +1,68 @@
+:root {
+ /* Primary colors */
+
+  /* Text */
+  --primary-text-color: hsl(276, 100%, 81%);
+  --moderate-violet-color: hsl(276, 55%, 52%);
+  --desaturated-dark-violet-color: hsl(271, 15%, 43%);
+  --grayish-blue-color: hsl(206, 6%, 79%);
+  --very-dark-desaturated-violet-color: hsl(271, 36%, 24%);
+  --dark-grayish-violet-color: hsl(270, 7%, 64%);
+
+  /* Gradients */
+  --light-magenta-color: hsl(293, 100%, 63%);
+  --light-violet-color: hsl(264, 100%, 61%);
+
+  /* Secondary colors */
+  --white-color: hsl(0, 0%, 100%);
+  --light-grayish-violet-color: hsl(270, 20%, 96%);
+  --very-dark-desaturated-violet-color: hsl(271, 36%, 24%);
+  --very-light-magenta-color: hsl(289, 100%, 72%);
+
+  --ff-base: 'Rubik', sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3{
+  line-height: 1;
+}
+
+/* General styling */
+
+body {
+  font-family: var(--ff-base);
+  font-size: 1rem;
+  background-color: var(--cream);
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  margin: 1rem;
+}
