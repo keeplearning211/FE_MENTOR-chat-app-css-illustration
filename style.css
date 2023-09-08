@@ -92,7 +92,6 @@ main {
   justify-content: center;
   padding-top: 64px;
   position: relative;
-  width: 100vw;
 }
 
 .art_side-background {
@@ -158,8 +157,7 @@ main {
 .app_header_partner-name {
   font-size: 11px;
   font-weight: var(--fw-medium);
-  color: var(--white);
-}
+  color: var(--light-grayish-violet);}
 
 .app_header_partner-status {
   font-size: 8px;
@@ -204,7 +202,7 @@ main {
 }
 
 .user-message {
-  margin-top: 6px;
+  margin: 11px 5px;
   display: grid;
   gap: 4px;
   justify-content: end;
@@ -233,6 +231,7 @@ main {
 
 .deal_option-list {
   margin-top: 8px;
+  margin-left: 4px;
 }
 
 .deal_option-item {
@@ -243,7 +242,7 @@ main {
   padding: 8px;
   padding-right: 12px;
   border-radius: 10px 10px 10px 4px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   width: 160px;
 }
 
@@ -267,6 +266,7 @@ main {
 /* Style the compose box */
 .compose {
   margin: 12px 0;
+  font-size: 12px;
   padding-left: 20px;
   color: var(--grayish-blue);
   background-color: var(--white)
@@ -282,7 +282,7 @@ main {
   border-radius: 50%;
   color: var(--white);
   background-color: var(--very-dark-desaturated-violet);
-  transform: translateX(48px);
+  transform: translateX(68px);
 }
 
 /* style the content area */
@@ -304,4 +304,40 @@ p.paragraph {
   color: var(--dark-grayish-violet);
   font-size: 16px;
   line-height: 28px;
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    grid-template-columns: 42.6% auto;
+    gap: 60px;
+    height: 100vh;
+    max-height: 880px;
+  }
+
+  .illustration {
+    justify-content: right;
+    align-items: center;
+    transform: translateY(-33px);
+  }
+
+  .art_side-background {
+    width: 72%;
+    height: 130%;
+    top: -37%;
+    left: -22px;
+    clip-path: ellipse(88% 64% at 42% 35%);
+  }
+
+  .content {
+    place-content: center;
+    text-align: left;
+    padding: 50px 60px;
+    transform: translateY(5px);
+    max-width: 579px;
+  }
+
+  p.paragraph {
+    transform: translateY(-4px);
+  }
+  
 }
