@@ -109,7 +109,7 @@ main {
   display: grid;
   width: 248px;
   border: solid 11px var(--white);
-  border-radius: 24px;
+  border-radius: 30px;
   overflow: hidden;
   background: var(--white);
   box-shadow: 0px 21px 55px -27px hsl(291deg 13.68% 28.54% / 75%);
@@ -225,6 +225,7 @@ main {
 
 .user-message-imgs img {
   width: 40px;
+  height: 40px;
   border-radius: 8px;
 }
 
@@ -325,7 +326,7 @@ p.paragraph {
     top: -37%;
     left: -22px;
     clip-path: ellipse(88% 64% at 42% 35%);
-    background-image: linear-gradient(218deg,var(--light-magenta), var(--light-violet) 86%);
+    background-image: linear-gradient(218deg,var(--light-magenta), var(--light-violet) 95%);
   }
 
   .content {
